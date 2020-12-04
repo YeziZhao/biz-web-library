@@ -8,6 +8,8 @@ export default defineConfig({
   logo: '/images/photos.jpg',
   description: '用于Biz Web Dev 前端组件开发。',
   // resolve: { includes: ['document']},
+  base: '/biz-web-library',
+  publicPath: '/biz-web-library/',
   exportStatic: {
     htmlSuffix: true,
   }, // 对每隔路由输出html
