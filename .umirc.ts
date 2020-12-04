@@ -7,6 +7,7 @@ export default defineConfig({
   favicon: '/images/favicon.ico',
   logo: '/images/photos.jpg',
   description: '用于Biz Web Dev 前端组件开发。',
+  // resolve: { includes: ['document']},
   exportStatic: {}, // 对每隔路由输出html
   locales: [
     ['en-US', 'English'],
