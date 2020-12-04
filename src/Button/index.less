@@ -1,0 +1,25 @@
+@btn-prefix-cls: ~'biz_dev';
+
+.@{btn-prefix-cls} {
+  &_button {
+    padding: 6px 16px;
+    font-size: 12px;
+    min-width: 64px;
+    color: red;
+  }
+
+  &_button[disabled] {
+    color: rgba(0, 0, 0, 0.26);
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+
+  &_primary {
+    color: #fff;
+    background-color: #1976d2;
+  }
+
+  &_secondary {
+    color: #fff;
+    background-color: #dc004e;
+  }
+}
