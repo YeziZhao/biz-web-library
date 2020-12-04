@@ -10,7 +10,7 @@ interface DialogProps {
 const Dialog: FC<DialogProps> = ({ children, onClick, type = 'dialog' }) => {
   return (
     <div className={style.biz_dev_dialog} onClick={onClick}>
-      {children}
+      {children} hello
     </div>
   );
 };
