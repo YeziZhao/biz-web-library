@@ -8,7 +8,9 @@ export default defineConfig({
   logo: '/images/photos.jpg',
   description: '用于Biz Web Dev 前端组件开发。',
   // resolve: { includes: ['document']},
-  exportStatic: {}, // 对每隔路由输出html
+  exportStatic: {
+    htmlSuffix: true,
+  }, // 对每隔路由输出html
   locales: [
     ['en-US', 'English'],
     ['zh-CN', '中文'],
