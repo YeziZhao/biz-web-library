@@ -13,8 +13,8 @@
     "test": "umi-test",
     "test:coverage": "umi-test --coverage"
   },
-  "main": "dist/*.esm.js",
-  "module": "dist/*.esm.js",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
   "typings": "dist/*.d.ts",
   "gitHooks": {
     "pre-commit": "lint-staged"
