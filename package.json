@@ -1,6 +1,7 @@
 {
   "name": "biz-web-library",
   "version": "1.0.0",
+  "homepage": "https://yezizhao.github.io/biz-web-library/",
   "scripts": {
     "start": "dumi dev",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
