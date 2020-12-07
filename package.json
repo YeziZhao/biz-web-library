@@ -1,6 +1,6 @@
 {
   "name": "biz-web-library",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "homepage": "https://yezizhao.github.io/biz-web-library/",
   "scripts": {
     "start": "dumi dev",
@@ -13,9 +13,9 @@
     "test": "umi-test",
     "test:coverage": "umi-test --coverage"
   },
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
-  "typings": "dist/index.d.ts",
+  "main": "dist/*.esm.js",
+  "module": "dist/*.esm.js",
+  "typings": "dist/*.d.ts",
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
