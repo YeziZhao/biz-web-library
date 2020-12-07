@@ -9,7 +9,7 @@ export default defineConfig({
   description: '用于Biz Web Dev 前端组件开发。',
   // resolve: { includes: ['document']},
   base: '/',
-  publicPath: '/biz-web-library/', // 生成路径
+  publicPath: '/biz-web-library/docs-dist/', // 生成路径
   exportStatic: {
     htmlSuffix: true,
   }, // 对每隔路由输出html
