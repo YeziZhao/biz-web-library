@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import style from './index.less';
+import './index.less';
 
 interface DialogProps {
   onClick?: React.MouseEventHandler<HTMLElement>;
@@ -9,7 +9,7 @@ interface DialogProps {
 
 const Dialog: FC<DialogProps> = ({ children, onClick, type = 'dialog' }) => {
   return (
-    <div className={style.biz_dev_dialog} onClick={onClick}>
+    <div className={'biz_dev_dialog'} onClick={onClick}>
       {children} hello
     </div>
   );

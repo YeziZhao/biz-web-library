@@ -1,7 +1,6 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-
   // 网站描述配置
   mode: 'site',
   title: 'Biz-Library',
@@ -26,8 +25,8 @@ export default defineConfig({
   theme: {
     '@c-primary': '#16c35f',
   },
-  
-  // alias: {
-  //   'biz-web-library': '@',
-  // }
+
+  alias: {
+    'biz-web-library/*': 'src/*',
+  },
 });

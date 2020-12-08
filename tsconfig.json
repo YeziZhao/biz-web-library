@@ -1,8 +1,11 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "esnext",
+    "target": "es6",
     "module": "esnext",
+    "lib": ["es2018", "dom"],
+    "rootDir": "src",
+    "outDir": "es",
     "moduleResolution": "node",
     "importHelpers": true,
     "jsx": "react",
@@ -10,10 +13,9 @@
     "sourceMap": true,
     "baseUrl": "./",
     "strict": true,
-    "outDir": "static",
-    "lib": ["es2017", "dom"],
+    "declaration": true, // 只有declaration设置为true才能生成.d.ts后缀的文件
     "allowJs": true,
-    "rootDir": "./",
+
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
@@ -27,7 +29,8 @@
       "@/*": ["src/*"],
       "@@/*": ["src/.umi/*"]
     },
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["typings", "node_modules/@types"]
   },
   "exclude": [
     "node_modules",
