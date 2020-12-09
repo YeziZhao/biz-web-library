@@ -4,8 +4,8 @@ export default defineConfig({
   // 网站描述配置
   mode: 'site',
   title: 'Biz Library',
-  favicon: '/images/favicon.ico',
-  logo: '/images/photos.svg',
+  favicon: '/biz-web-library/images/favicon.ico',
+  logo: '/biz-web-library/images/photos.svg',
   description: '用于Biz Web Dev 前端组件开发。',
 
   // 打包路径配置
