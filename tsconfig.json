@@ -4,7 +4,7 @@
     "target": "es6",
     "module": "esnext",
     "lib": ["es2018", "dom"],
-    "rootDir": "src",
+    "rootDir": "./",
     "outDir": "es",
     "moduleResolution": "node",
     "importHelpers": true,
@@ -27,11 +27,14 @@
     "skipLibCheck": true,
     "paths": {
       "@/*": ["src/*"],
-      "@@/*": ["src/.umi/*"]
+      "@@/*": ["src/.umi/*"],
+      "@@@/*": ["docs/*"]
     },
     "allowSyntheticDefaultImports": true,
     "typeRoots": ["typings", "node_modules/@types"]
+    // "files": ["*.ts", "*.tsx", ".md"],
   },
+  "include": ["src/**/*", "dosc/**/*"],
   "exclude": [
     "node_modules",
     "lib",

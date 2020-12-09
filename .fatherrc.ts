@@ -7,7 +7,7 @@ export default {
   esm: {
     // rollup
     type: 'babel',
-    file: 'dist',
+    // file: 'dist',
     minify: false, // 压缩文件
     importLibToEs: true,
   },

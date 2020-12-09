@@ -27,6 +27,9 @@
       "prettier --parser=typescript --write"
     ]
   },
+  "sideEffects": [
+    "src/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/YeziZhao/biz-web-library.git"
